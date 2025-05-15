@@ -1,7 +1,13 @@
+import Chai from "./chai"
+
 function App() {
   
   return (
-   <h1>Kaynat react with vite </h1>
+    <>
+     <Chai/>
+     <h1>chai</h1>
+    </>
+  
   )
 }
 
