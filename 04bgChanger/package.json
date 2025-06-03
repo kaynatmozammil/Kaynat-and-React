@@ -11,7 +11,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-   "deploy": "vite build && if not exist ..\\docs\\04bgchanger mkdir ..\\docs\\04bgchanger && xcopy dist ..\\docs\\04bgchanger /E /I /Y"
+   "deploy": "vite build && if not exist ..\\docs\\04bgchanger mkdir ..\\docs\\04bgChanger && xcopy dist ..\\docs\\04bgChanger /E /I /Y"
 
 
 
